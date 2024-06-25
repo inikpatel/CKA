@@ -77,7 +77,7 @@ public class SpringBootDockerApplication {
 ### Creating the Dockerfile
 
 1. **Create a Dockerfile**:
-   - In the project root directory, create a file named `Dockerfile` and add the following content:
+   - Create a file named Dockerfile in the same folder that contains all the other folders and files (like src, pom.xml, etc.) and add the following content:
      ```dockerfile
      FROM eclipse-temurin:21.0.2_13-jdk-jammy
      WORKDIR /app
