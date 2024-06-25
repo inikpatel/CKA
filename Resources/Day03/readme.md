@@ -72,8 +72,6 @@ public class SpringBootDockerApplication {
     }
 }
 
-
-
 ### Creating the Dockerfile
 
 1. **Create a Dockerfile**:
