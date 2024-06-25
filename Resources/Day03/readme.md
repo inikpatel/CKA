@@ -71,6 +71,7 @@ public class SpringBootDockerApplication {
         SpringApplication.run(SpringBootDockerApplication.class, args);
     }
 }
+    ```
 
 ### Creating the Dockerfile
 
