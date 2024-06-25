@@ -25,6 +25,28 @@ Multi-stage builds allow you to define multiple stages in your Dockerfile, each 
 ### Creating a RESTful Web Service
 
 - Modify `SpringBootDockerApplication.java` under `src/main/java/com/example/springbootdocker/` with the provided Java code to create a simple Spring Boot web application.
+package com.example.springbootdocker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+@SpringBootApplication
+public class SpringBootDockerApplication {
+
+    @RequestMapping("/")
+        public String home() {
+        return "Hello World";
+    }
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDockerApplication.class, args);
+	}
+
+}
 
 ### Creating the Dockerfile
 
