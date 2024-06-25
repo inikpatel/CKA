@@ -14,10 +14,10 @@ Multi-stage builds allow you to define multiple stages in your Dockerfile, each 
    - Begin by downloading and installing Docker Desktop from the [official Docker website](https://www.docker.com/products/docker-desktop).
 
 2. **Open a Pre-Initialized Project**:
-   - Use [Spring Initializr](https://start.spring.io/), a quickstart generator for Spring projects, to create a project. It helps generate JVM-based projects for Java, Kotlin, and Groovy.
+   - Use [Spring Initializr](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.0-M3&packaging=jar&jvmVersion=21&groupId=com.example&artifactId=spring-boot-docker&name=spring-boot-docker&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.spring-boot-docker&dependencies=web), a quickstart generator for Spring projects, to create a project. It helps generate JVM-based projects for Java, Kotlin, and Groovy.
 
 3. **Generate and Download the ZIP File**:
-   - Select your project specifications (e.g., Maven build automation with Java, a Spring Web dependency, and Java 21), and click "Generate" to download the ZIP file.
+   - Open this pre-initialized project to generate a ZIP file.
 
 4. **Unzip and Navigate the Project Directory**:
    - Unzip the downloaded file to see the project structure.
